@@ -22,10 +22,10 @@ int main(void)
       printf("Bem vindo ao Circo Maracutaia!\n");
       printf("===============================\n\n");
 
-      printf("Selecionar Opção ");
+      printf("Selecionar Opcao\n ");
       printf("\n 1- Vender Ingresso");
-      printf("\n 2- Listar ingressos Vendidos\n");
-      printf("\n 3- Validar ingresso\n");
+      printf("\n 2- Listar ingressos Vendidos");
+      printf("\n 3- Validar ingresso");
       printf("\n 4- Sair\n");
       scanf("%d", &opcao);
 
@@ -48,6 +48,7 @@ int main(void)
       default:
             printf("Opcao Invalida");
       }
+      return 0;
 }
 
 void opcaoVender(){
@@ -61,5 +62,9 @@ void opcaoVender(){
 }
 
 void opcaoListar(){
+
+}
+
+void opcaoValidar(){
 
 }
