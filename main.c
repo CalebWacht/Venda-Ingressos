@@ -84,7 +84,7 @@ void opcaoComprar(Pessoa *pessoa, int *numPessoa){
         printf("Venda realizada com sucesso!\n");
         system("pause"); 
     } else {
-        printf("CPF invalido. Venda não realizada.\n");
+        printf("CPF invalido. Venda nao realizada.\n");
         system("pause"); 
     }
 }
