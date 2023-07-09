@@ -22,6 +22,7 @@ int main(void) {
     Pessoa pessoa[80];  // Limite de 80 pessoas 
     int numPessoa = 0;
 
+    system("cls");
     while (1) {
         system("cls");
         printf("===============================\n");
